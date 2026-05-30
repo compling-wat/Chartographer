@@ -1,0 +1,83 @@
+{
+  "datasets": {
+    "chartmuseum": {
+      "hf_id": "lytang/ChartMuseum",
+      "local_dir": "chartmuseum",
+      "question_col": "question",
+      "image_col": "image",
+      "answer_col": "answer"
+    },
+    "charxiv": {
+      "hf_id": "princeton-nlp/CharXiv",
+      "local_dir": "charxiv",
+      "question_col": "reasoning_q",
+      "image_col": "image",
+      "answer_col": "reasoning_a",
+      "figure_path_col": "figure_path",
+      "original_figure_path_col": "original_figure_path"
+    },
+    "chartqa": {
+      "hf_id": "HuggingFaceM4/ChartQA",
+      "local_dir": "chartqa",
+      "question_col": "query",
+      "question_cols": [
+        "question"
+      ],
+      "image_col": "image",
+      "answer_col": "label",
+      "answer_cols": [
+        "answer"
+      ],
+      "row_filter_equals": {
+        "human_or_machine": 0
+      }
+    },
+    "chartographer": {
+      "hf_id": "1fanj/Chartographer",
+      "local_dir": "chartographer",
+      "question_col": "question",
+      "question_cols": [
+        "reasoning_q",
+        "query"
+      ],
+      "image_col": "image",
+      "answer_col": "answer",
+      "answer_cols": [
+        "reasoning_a",
+        "label"
+      ],
+      "variant_col": "variant",
+      "family_id_col": "question_id"
+    },
+    "my_chart_dataset": {
+      "hf_id": "org-or-user/my-chart-dataset",
+      "local_dir": "my_chart_dataset",
+      "question_col": "question",
+      "question_cols": [
+        "query"
+      ],
+      "image_col": "image",
+      "image_cols": [
+        "image_path"
+      ],
+      "answer_col": "answer",
+      "answer_cols": [
+        "label"
+      ]
+    },
+    "my_local_chart_dataset": {
+      "local_dir": "my_local_chart_dataset",
+      "local_file_template": "{repo_root}/data/my_local_chart_dataset/{split}.json",
+      "question_col": "question",
+      "image_col": "image",
+      "answer_col": "answer"
+    }
+  },
+  "aliases": {
+    "lytang/chartmuseum": "chartmuseum",
+    "princeton-nlp/charxiv": "charxiv",
+    "huggingfacem4/chartqa": "chartqa",
+    "mycharts": "my_chart_dataset",
+    "localcharts": "my_local_chart_dataset"
+  }
+}
