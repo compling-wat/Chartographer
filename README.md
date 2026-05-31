@@ -1,11 +1,14 @@
 # Chartographer: Counterfactual Chart Generation for Evaluating Vision-Language Models
 
+Authors: Yifan Jiang, Dae Yon Hwang, Jesse C. Cresswell, Freda Shi
+
+📄 [Paper](https://arxiv.org/abs/2605.27311) | 🤗 [Dataset](https://huggingface.co/datasets/1fanj/Chartographer)
+
+## Overview
+
 Chartographer is a counterfactual chart generation pipeline for evaluating whether vision-language models answer chart questions through visual reasoning rather than shortcuts or prior familiarity with a chart.
 
 It converts chart QA examples into counterfactual chart-question families: the original chart, a base reconstruction, and seed-controlled counterfactual variants whose answers are recomputed with executable QA logic.
-
-Paper: [arXiv:2605.27311](https://arxiv.org/abs/2605.27311)  
-Dataset: [1fanj/Chartographer](https://huggingface.co/datasets/1fanj/Chartographer)
 
 <img src="assets/pipeline_overview.png" alt="Chartographer pipeline overview" width="100%">
 
