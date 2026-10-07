@@ -107,14 +107,13 @@ Generated outputs are written under `results/`; local generated datasets are wri
 If you use Chartographer, please cite the [paper](https://arxiv.org/abs/2605.27311):
 
 ```bibtex
-@misc{jiang2026chartographer,
-  title={Chartographer: Counterfactual Chart Generation for Evaluating Vision-Language Models},
-  author={Yifan Jiang and Dae Yon Hwang and Jesse C. Cresswell and Freda Shi},
-  year={2026},
-  eprint={2605.27311},
-  archivePrefix={arXiv},
-  primaryClass={cs.CL},
-  url={https://arxiv.org/abs/2605.27311}
+@inproceedings{jiang2026chartographer,
+  title = {Chartographer: Counterfactual Chart Generation for Evaluating Vision-Language Models},
+  author = {Jiang, Yifan and Hwang, Dae Yon and Cresswell, Jesse C. and Shi, Freda},
+  booktitle = {Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing},
+  year = {2026},
+  publisher = {Association for Computational Linguistics},
+  url = {https://arxiv.org/abs/2605.27311}
 }
 ```
 
